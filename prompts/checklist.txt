@@ -1,0 +1,1 @@
+From the task instruction alone, derive a nonredundant checklist of persistent completion conditions. Return JSON {"items":[{"id":"c1","condition":"..."}]}. Do not assume access to any private evaluator schema.

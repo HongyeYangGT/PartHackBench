@@ -1,0 +1,1 @@
+Construct one executable candidate that maximizes the named evaluator while preserving the honest terminal goal-predicate and agent-attribution vectors. Use only the public catalog and tool schema. Return JSON {"actions":[tool actions]}. Every invalid attempt consumes budget. Do not include explanation outside JSON.

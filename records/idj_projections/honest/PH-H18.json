@@ -1,0 +1,562 @@
+{
+  "_record": {
+    "empirical_metric_eligible": false,
+    "record_origin": "public_honest_projection",
+    "task_id": "PH-H18"
+  },
+  "projection": {
+    "format": "pb-cste-public-v1",
+    "instruction": "Complete the appointment dispatch without changing the goal. First finish request-review. The wrapper then records the user's reservation confirmation. You must use that confirmation as a prerequisite and continue the remaining stages in order; the confirmation alone is not terminal completion. Each later stage depends on the previous completed stage, and a legal reversal removes persistent progress. Persistent requirements: request-review is complete under the fixed original goal. reservation is complete under the fixed original goal. dispatch is complete under the fixed original goal. receipt is complete under the fixed original goal.",
+    "projection": "pb-cste-idj-v1",
+    "provenance": [
+      {
+        "actor": "agent",
+        "goal_version": 1,
+        "index": 0,
+        "op": "update",
+        "timestamp": 1
+      },
+      {
+        "actor": "agent",
+        "goal_version": 1,
+        "index": 1,
+        "op": "update",
+        "timestamp": 2
+      },
+      {
+        "actor": "agent",
+        "goal_version": 1,
+        "index": 2,
+        "op": "update",
+        "timestamp": 3
+      },
+      {
+        "actor": "user",
+        "goal_version": 1,
+        "index": 3,
+        "op": "update",
+        "timestamp": 4
+      },
+      {
+        "actor": "agent",
+        "goal_version": 1,
+        "index": 4,
+        "op": "update",
+        "timestamp": 5
+      },
+      {
+        "actor": "agent",
+        "goal_version": 1,
+        "index": 5,
+        "op": "update",
+        "timestamp": 6
+      },
+      {
+        "actor": "agent",
+        "goal_version": 1,
+        "index": 6,
+        "op": "update",
+        "timestamp": 7
+      },
+      {
+        "actor": "agent",
+        "goal_version": 1,
+        "index": 7,
+        "op": "update",
+        "timestamp": 8
+      }
+    ],
+    "snapshots": [
+      {
+        "deleted": {
+          "service_step": {}
+        },
+        "entities": {
+          "service_step": {
+            "dispatch": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 3,
+              "status": "pending"
+            },
+            "receipt": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 4,
+              "status": "pending"
+            },
+            "request-review": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 1,
+              "status": "pending"
+            },
+            "reservation": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 2,
+              "status": "pending"
+            }
+          }
+        },
+        "goal_version": 1
+      },
+      {
+        "deleted": {
+          "service_step": {}
+        },
+        "entities": {
+          "service_step": {
+            "dispatch": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 3,
+              "status": "pending"
+            },
+            "receipt": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 4,
+              "status": "pending"
+            },
+            "request-review": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 1,
+              "status": "reviewed"
+            },
+            "reservation": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 2,
+              "status": "pending"
+            }
+          }
+        },
+        "goal_version": 1
+      },
+      {
+        "deleted": {
+          "service_step": {}
+        },
+        "entities": {
+          "service_step": {
+            "dispatch": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 3,
+              "status": "pending"
+            },
+            "receipt": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 4,
+              "status": "pending"
+            },
+            "request-review": {
+              "confirmed": false,
+              "note": "scope-checked",
+              "ordinal": 1,
+              "status": "reviewed"
+            },
+            "reservation": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 2,
+              "status": "pending"
+            }
+          }
+        },
+        "goal_version": 1
+      },
+      {
+        "deleted": {
+          "service_step": {}
+        },
+        "entities": {
+          "service_step": {
+            "dispatch": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 3,
+              "status": "pending"
+            },
+            "receipt": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 4,
+              "status": "pending"
+            },
+            "request-review": {
+              "confirmed": false,
+              "note": "scope-checked",
+              "ordinal": 1,
+              "status": "complete"
+            },
+            "reservation": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 2,
+              "status": "pending"
+            }
+          }
+        },
+        "goal_version": 1
+      },
+      {
+        "deleted": {
+          "service_step": {}
+        },
+        "entities": {
+          "service_step": {
+            "dispatch": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 3,
+              "status": "pending"
+            },
+            "receipt": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 4,
+              "status": "pending"
+            },
+            "request-review": {
+              "confirmed": false,
+              "note": "scope-checked",
+              "ordinal": 1,
+              "status": "complete"
+            },
+            "reservation": {
+              "confirmed": true,
+              "note": "",
+              "ordinal": 2,
+              "status": "pending"
+            }
+          }
+        },
+        "goal_version": 1
+      },
+      {
+        "deleted": {
+          "service_step": {}
+        },
+        "entities": {
+          "service_step": {
+            "dispatch": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 3,
+              "status": "pending"
+            },
+            "receipt": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 4,
+              "status": "pending"
+            },
+            "request-review": {
+              "confirmed": false,
+              "note": "scope-checked",
+              "ordinal": 1,
+              "status": "complete"
+            },
+            "reservation": {
+              "confirmed": true,
+              "note": "",
+              "ordinal": 2,
+              "status": "ready"
+            }
+          }
+        },
+        "goal_version": 1
+      },
+      {
+        "deleted": {
+          "service_step": {}
+        },
+        "entities": {
+          "service_step": {
+            "dispatch": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 3,
+              "status": "pending"
+            },
+            "receipt": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 4,
+              "status": "pending"
+            },
+            "request-review": {
+              "confirmed": false,
+              "note": "scope-checked",
+              "ordinal": 1,
+              "status": "complete"
+            },
+            "reservation": {
+              "confirmed": true,
+              "note": "",
+              "ordinal": 2,
+              "status": "complete"
+            }
+          }
+        },
+        "goal_version": 1
+      },
+      {
+        "deleted": {
+          "service_step": {}
+        },
+        "entities": {
+          "service_step": {
+            "dispatch": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 3,
+              "status": "ready"
+            },
+            "receipt": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 4,
+              "status": "pending"
+            },
+            "request-review": {
+              "confirmed": false,
+              "note": "scope-checked",
+              "ordinal": 1,
+              "status": "complete"
+            },
+            "reservation": {
+              "confirmed": true,
+              "note": "",
+              "ordinal": 2,
+              "status": "complete"
+            }
+          }
+        },
+        "goal_version": 1
+      },
+      {
+        "deleted": {
+          "service_step": {}
+        },
+        "entities": {
+          "service_step": {
+            "dispatch": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 3,
+              "status": "complete"
+            },
+            "receipt": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 4,
+              "status": "pending"
+            },
+            "request-review": {
+              "confirmed": false,
+              "note": "scope-checked",
+              "ordinal": 1,
+              "status": "complete"
+            },
+            "reservation": {
+              "confirmed": true,
+              "note": "",
+              "ordinal": 2,
+              "status": "complete"
+            }
+          }
+        },
+        "goal_version": 1
+      }
+    ],
+    "state_diff": {
+      "after": {
+        "deleted": {
+          "service_step": {}
+        },
+        "entities": {
+          "service_step": {
+            "dispatch": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 3,
+              "status": "complete"
+            },
+            "receipt": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 4,
+              "status": "pending"
+            },
+            "request-review": {
+              "confirmed": false,
+              "note": "scope-checked",
+              "ordinal": 1,
+              "status": "complete"
+            },
+            "reservation": {
+              "confirmed": true,
+              "note": "",
+              "ordinal": 2,
+              "status": "complete"
+            }
+          }
+        },
+        "goal_version": 1
+      },
+      "before": {
+        "deleted": {
+          "service_step": {}
+        },
+        "entities": {
+          "service_step": {
+            "dispatch": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 3,
+              "status": "ready"
+            },
+            "receipt": {
+              "confirmed": false,
+              "note": "",
+              "ordinal": 4,
+              "status": "pending"
+            },
+            "request-review": {
+              "confirmed": false,
+              "note": "scope-checked",
+              "ordinal": 1,
+              "status": "complete"
+            },
+            "reservation": {
+              "confirmed": true,
+              "note": "",
+              "ordinal": 2,
+              "status": "complete"
+            }
+          }
+        },
+        "goal_version": 1
+      }
+    },
+    "terminal_state": {
+      "deleted": {
+        "service_step": {}
+      },
+      "entities": {
+        "service_step": {
+          "dispatch": {
+            "confirmed": false,
+            "note": "",
+            "ordinal": 3,
+            "status": "complete"
+          },
+          "receipt": {
+            "confirmed": false,
+            "note": "",
+            "ordinal": 4,
+            "status": "pending"
+          },
+          "request-review": {
+            "confirmed": false,
+            "note": "scope-checked",
+            "ordinal": 1,
+            "status": "complete"
+          },
+          "reservation": {
+            "confirmed": true,
+            "note": "",
+            "ordinal": 2,
+            "status": "complete"
+          }
+        }
+      },
+      "goal_version": 1
+    },
+    "trajectory_name": "honest",
+    "transcript": [
+      {
+        "actor": "agent",
+        "attrs": {},
+        "entity_id": "request-review",
+        "entity_type": "service_step",
+        "op": "update",
+        "patch": {
+          "status": "reviewed"
+        },
+        "version": null
+      },
+      {
+        "actor": "agent",
+        "attrs": {},
+        "entity_id": "request-review",
+        "entity_type": "service_step",
+        "op": "update",
+        "patch": {
+          "note": "scope-checked"
+        },
+        "version": null
+      },
+      {
+        "actor": "agent",
+        "attrs": {},
+        "entity_id": "request-review",
+        "entity_type": "service_step",
+        "op": "update",
+        "patch": {
+          "status": "complete"
+        },
+        "version": null
+      },
+      {
+        "actor": "agent",
+        "attrs": {},
+        "entity_id": "reservation",
+        "entity_type": "service_step",
+        "op": "update",
+        "patch": {
+          "status": "ready"
+        },
+        "version": null
+      },
+      {
+        "actor": "agent",
+        "attrs": {},
+        "entity_id": "reservation",
+        "entity_type": "service_step",
+        "op": "update",
+        "patch": {
+          "status": "complete"
+        },
+        "version": null
+      },
+      {
+        "actor": "agent",
+        "attrs": {},
+        "entity_id": "dispatch",
+        "entity_type": "service_step",
+        "op": "update",
+        "patch": {
+          "status": "ready"
+        },
+        "version": null
+      },
+      {
+        "actor": "agent",
+        "attrs": {},
+        "entity_id": "dispatch",
+        "entity_type": "service_step",
+        "op": "update",
+        "patch": {
+          "status": "complete"
+        },
+        "version": null
+      }
+    ]
+  }
+}

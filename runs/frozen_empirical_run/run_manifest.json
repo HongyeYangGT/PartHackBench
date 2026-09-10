@@ -1,0 +1,47 @@
+{
+  "run_id": "frozen-empirical-run",
+  "run_type": "frozen_empirical",
+  "benchmark": "PartHackBench",
+  "environment": "PB-CSTE v1.0",
+  "immutable": true,
+  "frozen_metrics_source": {
+    "shared_reference_ledger": "artifacts/empirical_shared_ledger.json",
+    "aggregate_results": "artifacts/empirical_results.json",
+    "candidate_accounting": "artifacts/candidate_accounting_k3.json"
+  },
+  "attacker": {
+    "model": "deepseek-v4-pro",
+    "mode": "thinking",
+    "temperature": 0,
+    "output": "strict JSON",
+    "token_cap": 12000,
+    "timeout_seconds": 600,
+    "retry": "one bounded retry for transport or schema failure"
+  },
+  "deepseek_judge": {
+    "model": "deepseek-v4-pro",
+    "temperature": 0,
+    "output": "strict JSON",
+    "token_cap": 4096,
+    "timeout_seconds": 600,
+    "retry": "one bounded retry"
+  },
+  "idj": {
+    "checklist_model": "Gemini 2.5 Pro",
+    "checklist_source": "task instruction only",
+    "scoring_projection": "schema-free",
+    "calls_per_trajectory": 3,
+    "primary_aggregation": "median",
+    "temperature": 0,
+    "output": "strict JSON",
+    "token_cap": 4096,
+    "timeout_seconds": 600
+  },
+  "unreleased_or_unspecified": {
+    "provider_model_revision_ids": null,
+    "frozen_per_task_idj_checklist_hashes": null,
+    "raw_frozen_adversarial_trace_bundle": null,
+    "raw_frozen_rollback_trace_bundle": null
+  },
+  "policy": "Unspecified fields are left null; no replacement values or traces are reconstructed."
+}

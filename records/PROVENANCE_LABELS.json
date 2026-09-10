@@ -1,0 +1,20 @@
+{
+  "policy": {
+    "eligibility_verdicts_public": false,
+    "frozen_empirical_records_immutable": true,
+    "missing_frozen_attack_traces_not_regenerated_as_empirical": true,
+    "missing_model_outputs_not_invented": true,
+    "private_certification_vectors_public": false,
+    "protocol_fixtures_used_as_default_attack_generator": false,
+    "task_specs_encode_attack_matching_outcomes": false
+  },
+  "record_roles": {
+    "frozen_empirical": "A value preserved from the frozen empirical release record.",
+    "protocol_fixture": "Locally constructed mechanics-only witness; excluded from empirical aggregation.",
+    "public_honest_payload": "A serialized public evaluator input for an honest trajectory.",
+    "public_honest_projection": "A schema-free public IDJ projection for an honest trajectory.",
+    "public_honest_trajectory": "A public honest trajectory record used for protocol inspection; it does not expose private certification vectors.",
+    "public_task_spec": "A public PB-CSTE task specification used for benchmark inspection and mechanics tests."
+  },
+  "release": "PartHackBench public release"
+}

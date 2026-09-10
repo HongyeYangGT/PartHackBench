@@ -1,0 +1,17 @@
+{
+  "_record": {
+    "benchmark": "PartHackBench",
+    "empirical_metric_eligible": true,
+    "environment": "PB-CSTE v1.0",
+    "meaning": "Released empirical benchmark record.",
+    "record_origin": "frozen_empirical",
+    "release_scope": "public",
+    "target": "independent_certifier_agreement"
+  },
+  "evaluator_or_record": "independent_certifier_agreement",
+  "result": [
+    51,
+    51
+  ],
+  "section": "integrity"
+}

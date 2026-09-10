@@ -1,0 +1,18 @@
+{
+  "_record": {
+    "benchmark": "PartHackBench",
+    "empirical_metric_eligible": true,
+    "environment": "PB-CSTE v1.0",
+    "meaning": "Released empirical benchmark record.",
+    "record_origin": "frozen_empirical",
+    "release_scope": "public",
+    "target": "deepseek",
+    "task_id": "PH-H12",
+    "trajectory": "shared-reference-pair"
+  },
+  "absolute_scores_released": false,
+  "delta_hack": 0.0,
+  "display_precision_decimals": 3,
+  "evaluator": "deepseek",
+  "task_id": "PH-H12"
+}

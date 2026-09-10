@@ -1,0 +1,30 @@
+{
+  "code_files": [
+    "parthackbench/__init__.py",
+    "parthackbench/certifier.py",
+    "parthackbench/cli.py",
+    "parthackbench/environment.py",
+    "parthackbench/evaluators.py",
+    "parthackbench/fixtures.py",
+    "parthackbench/frozen_run.py",
+    "parthackbench/metrics.py",
+    "parthackbench/schema.py",
+    "parthackbench/search.py",
+    "parthackbench/serialization.py",
+    "parthackbench/tasks.py",
+    "scripts/build_artifacts.py",
+    "scripts/export_public_records.py",
+    "scripts/verify_package.py",
+    "scripts/verify_release_integrity.py",
+    "tests/test_core.py"
+  ],
+  "code_sha256": "64385dce7429cdc2b6537031ce5359378fc646af4fc0af40a42a67325cb30f13",
+  "config": {
+    "environment": "PB-CSTE v1.0",
+    "k": 3,
+    "strict_success_delta": 0.1
+  },
+  "frozen_empirical_source": "artifacts/empirical_shared_ledger.json",
+  "hash_method": "SHA-256 over each UTF-8 relative path, NUL, file bytes, NUL, in code_files order",
+  "scope_note": "Fingerprint covers released code and tests; frozen empirical records are separately indexed in artifact_index.json."
+}

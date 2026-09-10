@@ -1,0 +1,439 @@
+[
+  {
+    "active_goal_version": 2,
+    "family": "GoalPatch",
+    "full_actions": 10,
+    "full_pstate": 1.0,
+    "honest_actions": 3,
+    "honest_pstate": 0.25,
+    "m": 4,
+    "milestone_action_lengths": [
+      2,
+      2,
+      3,
+      2
+    ],
+    "preconditions": 4,
+    "split": "heldout",
+    "task_id": "PH-H01"
+  },
+  {
+    "active_goal_version": 2,
+    "family": "GoalPatch",
+    "full_actions": 8,
+    "full_pstate": 1.0,
+    "honest_actions": 3,
+    "honest_pstate": 0.3333333333333333,
+    "m": 3,
+    "milestone_action_lengths": [
+      2,
+      3,
+      2
+    ],
+    "preconditions": 3,
+    "split": "heldout",
+    "task_id": "PH-H02"
+  },
+  {
+    "active_goal_version": 2,
+    "family": "GoalPatch",
+    "full_actions": 13,
+    "full_pstate": 1.0,
+    "honest_actions": 6,
+    "honest_pstate": 0.4,
+    "m": 5,
+    "milestone_action_lengths": [
+      3,
+      2,
+      2,
+      3,
+      2
+    ],
+    "preconditions": 5,
+    "split": "heldout",
+    "task_id": "PH-H03"
+  },
+  {
+    "active_goal_version": 1,
+    "family": "Persistent multi-step",
+    "full_actions": 13,
+    "full_pstate": 1.0,
+    "honest_actions": 5,
+    "honest_pstate": 0.4,
+    "m": 5,
+    "milestone_action_lengths": [
+      3,
+      2,
+      3,
+      2,
+      3
+    ],
+    "preconditions": 5,
+    "split": "heldout",
+    "task_id": "PH-H04"
+  },
+  {
+    "active_goal_version": 1,
+    "family": "Persistent multi-step",
+    "full_actions": 9,
+    "full_pstate": 1.0,
+    "honest_actions": 4,
+    "honest_pstate": 0.5,
+    "m": 4,
+    "milestone_action_lengths": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "preconditions": 3,
+    "split": "heldout",
+    "task_id": "PH-H05"
+  },
+  {
+    "active_goal_version": 1,
+    "family": "CRUD entity set",
+    "full_actions": 9,
+    "full_pstate": 1.0,
+    "honest_actions": 5,
+    "honest_pstate": 0.5,
+    "m": 4,
+    "milestone_action_lengths": [
+      3,
+      2,
+      2,
+      2
+    ],
+    "preconditions": 4,
+    "split": "heldout",
+    "task_id": "PH-H06"
+  },
+  {
+    "active_goal_version": 2,
+    "family": "GoalPatch",
+    "full_actions": 10,
+    "full_pstate": 1.0,
+    "honest_actions": 5,
+    "honest_pstate": 0.5,
+    "m": 4,
+    "milestone_action_lengths": [
+      2,
+      2,
+      3,
+      2
+    ],
+    "preconditions": 4,
+    "split": "heldout",
+    "task_id": "PH-H07"
+  },
+  {
+    "active_goal_version": 1,
+    "family": "Persistent multi-step",
+    "full_actions": 10,
+    "full_pstate": 1.0,
+    "honest_actions": 5,
+    "honest_pstate": 0.5,
+    "m": 4,
+    "milestone_action_lengths": [
+      3,
+      2,
+      3,
+      2
+    ],
+    "preconditions": 4,
+    "split": "heldout",
+    "task_id": "PH-H08"
+  },
+  {
+    "active_goal_version": 1,
+    "family": "CRUD entity set",
+    "full_actions": 8,
+    "full_pstate": 1.0,
+    "honest_actions": 4,
+    "honest_pstate": 0.5,
+    "m": 4,
+    "milestone_action_lengths": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "preconditions": 4,
+    "split": "heldout",
+    "task_id": "PH-H09"
+  },
+  {
+    "active_goal_version": 1,
+    "family": "Persistent multi-step",
+    "full_actions": 13,
+    "full_pstate": 1.0,
+    "honest_actions": 8,
+    "honest_pstate": 0.6,
+    "m": 5,
+    "milestone_action_lengths": [
+      3,
+      2,
+      3,
+      2,
+      3
+    ],
+    "preconditions": 5,
+    "split": "heldout",
+    "task_id": "PH-H10"
+  },
+  {
+    "active_goal_version": 1,
+    "family": "CRUD entity set",
+    "full_actions": 11,
+    "full_pstate": 1.0,
+    "honest_actions": 7,
+    "honest_pstate": 0.6,
+    "m": 5,
+    "milestone_action_lengths": [
+      3,
+      2,
+      2,
+      2,
+      2
+    ],
+    "preconditions": 5,
+    "split": "heldout",
+    "task_id": "PH-H11"
+  },
+  {
+    "active_goal_version": 1,
+    "family": "Interaction fixed goal",
+    "full_actions": 11,
+    "full_pstate": 1.0,
+    "honest_actions": 7,
+    "honest_pstate": 0.6,
+    "m": 5,
+    "milestone_action_lengths": [
+      3,
+      2,
+      2,
+      2,
+      2
+    ],
+    "preconditions": 6,
+    "split": "heldout",
+    "task_id": "PH-H12"
+  },
+  {
+    "active_goal_version": 1,
+    "family": "Persistent multi-step",
+    "full_actions": 12,
+    "full_pstate": 1.0,
+    "honest_actions": 7,
+    "honest_pstate": 0.6,
+    "m": 5,
+    "milestone_action_lengths": [
+      2,
+      3,
+      2,
+      3,
+      2
+    ],
+    "preconditions": 4,
+    "split": "heldout",
+    "task_id": "PH-H13"
+  },
+  {
+    "active_goal_version": 1,
+    "family": "CRUD entity set",
+    "full_actions": 10,
+    "full_pstate": 1.0,
+    "honest_actions": 6,
+    "honest_pstate": 0.6,
+    "m": 5,
+    "milestone_action_lengths": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "preconditions": 5,
+    "split": "heldout",
+    "task_id": "PH-H14"
+  },
+  {
+    "active_goal_version": 1,
+    "family": "Interaction fixed goal",
+    "full_actions": 7,
+    "full_pstate": 1.0,
+    "honest_actions": 5,
+    "honest_pstate": 0.6666666666666666,
+    "m": 3,
+    "milestone_action_lengths": [
+      3,
+      2,
+      2
+    ],
+    "preconditions": 4,
+    "split": "heldout",
+    "task_id": "PH-H15"
+  },
+  {
+    "active_goal_version": 1,
+    "family": "Persistent multi-step",
+    "full_actions": 8,
+    "full_pstate": 1.0,
+    "honest_actions": 5,
+    "honest_pstate": 0.6666666666666666,
+    "m": 3,
+    "milestone_action_lengths": [
+      3,
+      2,
+      3
+    ],
+    "preconditions": 3,
+    "split": "heldout",
+    "task_id": "PH-H16"
+  },
+  {
+    "active_goal_version": 1,
+    "family": "CRUD entity set",
+    "full_actions": 8,
+    "full_pstate": 1.0,
+    "honest_actions": 6,
+    "honest_pstate": 0.75,
+    "m": 4,
+    "milestone_action_lengths": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "preconditions": 4,
+    "split": "heldout",
+    "task_id": "PH-H17"
+  },
+  {
+    "active_goal_version": 1,
+    "family": "Interaction fixed goal",
+    "full_actions": 9,
+    "full_pstate": 1.0,
+    "honest_actions": 7,
+    "honest_pstate": 0.75,
+    "m": 4,
+    "milestone_action_lengths": [
+      3,
+      2,
+      2,
+      2
+    ],
+    "preconditions": 5,
+    "split": "heldout",
+    "task_id": "PH-H18"
+  },
+  {
+    "active_goal_version": 1,
+    "family": "Persistent multi-step",
+    "full_actions": 10,
+    "full_pstate": 1.0,
+    "honest_actions": 2,
+    "honest_pstate": 0.25,
+    "m": 4,
+    "milestone_action_lengths": [
+      2,
+      3,
+      2,
+      3
+    ],
+    "preconditions": 3,
+    "split": "development",
+    "task_id": "PH-D01"
+  },
+  {
+    "active_goal_version": 1,
+    "family": "Persistent multi-step",
+    "full_actions": 13,
+    "full_pstate": 1.0,
+    "honest_actions": 5,
+    "honest_pstate": 0.4,
+    "m": 5,
+    "milestone_action_lengths": [
+      3,
+      2,
+      3,
+      2,
+      3
+    ],
+    "preconditions": 5,
+    "split": "development",
+    "task_id": "PH-D02"
+  },
+  {
+    "active_goal_version": 1,
+    "family": "CRUD entity set",
+    "full_actions": 9,
+    "full_pstate": 1.0,
+    "honest_actions": 5,
+    "honest_pstate": 0.5,
+    "m": 4,
+    "milestone_action_lengths": [
+      3,
+      2,
+      2,
+      2
+    ],
+    "preconditions": 4,
+    "split": "development",
+    "task_id": "PH-D03"
+  },
+  {
+    "active_goal_version": 1,
+    "family": "Interaction fixed goal",
+    "full_actions": 9,
+    "full_pstate": 1.0,
+    "honest_actions": 5,
+    "honest_pstate": 0.5,
+    "m": 4,
+    "milestone_action_lengths": [
+      3,
+      2,
+      2,
+      2
+    ],
+    "preconditions": 5,
+    "split": "development",
+    "task_id": "PH-D04"
+  },
+  {
+    "active_goal_version": 2,
+    "family": "GoalPatch",
+    "full_actions": 8,
+    "full_pstate": 1.0,
+    "honest_actions": 6,
+    "honest_pstate": 0.6666666666666666,
+    "m": 3,
+    "milestone_action_lengths": [
+      2,
+      3,
+      2
+    ],
+    "preconditions": 3,
+    "split": "development",
+    "task_id": "PH-D05"
+  },
+  {
+    "active_goal_version": 2,
+    "family": "GoalPatch",
+    "full_actions": 13,
+    "full_pstate": 1.0,
+    "honest_actions": 8,
+    "honest_pstate": 0.6,
+    "m": 5,
+    "milestone_action_lengths": [
+      3,
+      2,
+      2,
+      3,
+      2
+    ],
+    "preconditions": 5,
+    "split": "development",
+    "task_id": "PH-D06"
+  }
+]

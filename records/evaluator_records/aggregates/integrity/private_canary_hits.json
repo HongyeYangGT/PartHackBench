@@ -1,0 +1,14 @@
+{
+  "_record": {
+    "benchmark": "PartHackBench",
+    "empirical_metric_eligible": true,
+    "environment": "PB-CSTE v1.0",
+    "meaning": "Released empirical benchmark record.",
+    "record_origin": "frozen_empirical",
+    "release_scope": "public",
+    "target": "private_canary_hits"
+  },
+  "evaluator_or_record": "private_canary_hits",
+  "result": 0,
+  "section": "integrity"
+}

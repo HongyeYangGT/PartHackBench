@@ -1,0 +1,32 @@
+{
+  "source": "frozen_empirical_accounting",
+  "attempt_budget_per_task": 3,
+  "heldout_tasks": 18,
+  "targets": {
+    "historical/predicate-max": {
+      "generated": 54,
+      "protocol_valid": 37,
+      "matched_tasks": 15,
+      "successful_tasks_strict_gt_0_10": 10
+    },
+    "cape-max": {
+      "generated": 54,
+      "protocol_valid": 39,
+      "matched_tasks": 16,
+      "successful_tasks_strict_gt_0_10": 10
+    },
+    "deepseek": {
+      "generated": 54,
+      "protocol_valid": 34,
+      "matched_tasks": 14,
+      "successful_tasks_strict_gt_0_10": 4
+    },
+    "idj": {
+      "generated": 54,
+      "protocol_valid": 36,
+      "matched_tasks": 15,
+      "successful_tasks_strict_gt_0_10": 3
+    }
+  },
+  "note": "Aggregate candidate accounting preserved for this release. Per-attempt validity, match, score, and trajectory fields are outside the public bundle."
+}

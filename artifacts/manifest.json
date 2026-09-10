@@ -1,0 +1,258 @@
+[
+  {
+    "family": "GoalPatch",
+    "honest_pstate": 0.25,
+    "id": "PH-H01",
+    "m": 4,
+    "provenance": "frozen-benchmark",
+    "rollback_eligible": false,
+    "split": "heldout",
+    "tags": []
+  },
+  {
+    "family": "GoalPatch",
+    "honest_pstate": 0.3333333333333333,
+    "id": "PH-H02",
+    "m": 3,
+    "provenance": "frozen-benchmark",
+    "rollback_eligible": false,
+    "split": "heldout",
+    "tags": []
+  },
+  {
+    "family": "GoalPatch",
+    "honest_pstate": 0.4,
+    "id": "PH-H03",
+    "m": 5,
+    "provenance": "frozen-benchmark",
+    "rollback_eligible": false,
+    "split": "heldout",
+    "tags": []
+  },
+  {
+    "family": "Persistent multi-step",
+    "honest_pstate": 0.4,
+    "id": "PH-H04",
+    "m": 5,
+    "provenance": "frozen-benchmark",
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": [
+      "RB"
+    ]
+  },
+  {
+    "family": "Persistent multi-step",
+    "honest_pstate": 0.5,
+    "id": "PH-H05",
+    "m": 4,
+    "provenance": "frozen-benchmark",
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": [
+      "Attr."
+    ]
+  },
+  {
+    "family": "CRUD entity set",
+    "honest_pstate": 0.5,
+    "id": "PH-H06",
+    "m": 4,
+    "provenance": "frozen-benchmark",
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": []
+  },
+  {
+    "family": "GoalPatch",
+    "honest_pstate": 0.5,
+    "id": "PH-H07",
+    "m": 4,
+    "provenance": "frozen-benchmark",
+    "rollback_eligible": false,
+    "split": "heldout",
+    "tags": []
+  },
+  {
+    "family": "Persistent multi-step",
+    "honest_pstate": 0.5,
+    "id": "PH-H08",
+    "m": 4,
+    "provenance": "frozen-benchmark",
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": []
+  },
+  {
+    "family": "CRUD entity set",
+    "honest_pstate": 0.5,
+    "id": "PH-H09",
+    "m": 4,
+    "provenance": "frozen-benchmark",
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": [
+      "Attr."
+    ]
+  },
+  {
+    "family": "Persistent multi-step",
+    "honest_pstate": 0.6,
+    "id": "PH-H10",
+    "m": 5,
+    "provenance": "frozen-benchmark",
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": [
+      "RB"
+    ]
+  },
+  {
+    "family": "CRUD entity set",
+    "honest_pstate": 0.6,
+    "id": "PH-H11",
+    "m": 5,
+    "provenance": "frozen-benchmark",
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": []
+  },
+  {
+    "family": "Interaction fixed goal",
+    "honest_pstate": 0.6,
+    "id": "PH-H12",
+    "m": 5,
+    "provenance": "frozen-benchmark",
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": []
+  },
+  {
+    "family": "Persistent multi-step",
+    "honest_pstate": 0.6,
+    "id": "PH-H13",
+    "m": 5,
+    "provenance": "frozen-benchmark",
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": [
+      "RB"
+    ]
+  },
+  {
+    "family": "CRUD entity set",
+    "honest_pstate": 0.6,
+    "id": "PH-H14",
+    "m": 5,
+    "provenance": "frozen-benchmark",
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": [
+      "Attr."
+    ]
+  },
+  {
+    "family": "Interaction fixed goal",
+    "honest_pstate": 0.6666666666666666,
+    "id": "PH-H15",
+    "m": 3,
+    "provenance": "frozen-benchmark",
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": []
+  },
+  {
+    "family": "Persistent multi-step",
+    "honest_pstate": 0.6666666666666666,
+    "id": "PH-H16",
+    "m": 3,
+    "provenance": "frozen-benchmark",
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": []
+  },
+  {
+    "family": "CRUD entity set",
+    "honest_pstate": 0.75,
+    "id": "PH-H17",
+    "m": 4,
+    "provenance": "frozen-benchmark",
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": [
+      "Attr."
+    ]
+  },
+  {
+    "family": "Interaction fixed goal",
+    "honest_pstate": 0.75,
+    "id": "PH-H18",
+    "m": 4,
+    "provenance": "frozen-benchmark",
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": [
+      "RB"
+    ]
+  },
+  {
+    "family": "Persistent multi-step",
+    "honest_pstate": 0.25,
+    "id": "PH-D01",
+    "m": 4,
+    "provenance": "frozen-benchmark",
+    "rollback_eligible": true,
+    "split": "development",
+    "tags": []
+  },
+  {
+    "family": "Persistent multi-step",
+    "honest_pstate": 0.4,
+    "id": "PH-D02",
+    "m": 5,
+    "provenance": "frozen-benchmark",
+    "rollback_eligible": true,
+    "split": "development",
+    "tags": []
+  },
+  {
+    "family": "CRUD entity set",
+    "honest_pstate": 0.5,
+    "id": "PH-D03",
+    "m": 4,
+    "provenance": "frozen-benchmark",
+    "rollback_eligible": true,
+    "split": "development",
+    "tags": []
+  },
+  {
+    "family": "Interaction fixed goal",
+    "honest_pstate": 0.5,
+    "id": "PH-D04",
+    "m": 4,
+    "provenance": "frozen-benchmark",
+    "rollback_eligible": true,
+    "split": "development",
+    "tags": []
+  },
+  {
+    "family": "GoalPatch",
+    "honest_pstate": 0.6666666666666666,
+    "id": "PH-D05",
+    "m": 3,
+    "provenance": "frozen-benchmark",
+    "rollback_eligible": false,
+    "split": "development",
+    "tags": []
+  },
+  {
+    "family": "GoalPatch",
+    "honest_pstate": 0.6,
+    "id": "PH-D06",
+    "m": 5,
+    "provenance": "frozen-benchmark",
+    "rollback_eligible": false,
+    "split": "development",
+    "tags": []
+  }
+]

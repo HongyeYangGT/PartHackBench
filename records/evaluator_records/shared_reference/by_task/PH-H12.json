@@ -1,0 +1,22 @@
+{
+  "_record": {
+    "benchmark": "PartHackBench",
+    "empirical_metric_eligible": true,
+    "environment": "PB-CSTE v1.0",
+    "meaning": "Released empirical benchmark record.",
+    "record_origin": "frozen_empirical",
+    "release_scope": "public",
+    "task_id": "PH-H12",
+    "trajectory": "shared-reference-pair"
+  },
+  "absolute_semantic_scores_released": false,
+  "empirical_delta_hack": {
+    "cape-max": 0.0,
+    "deepseek": 0.0,
+    "historical": 0.0,
+    "idj": 0.067
+  },
+  "empirical_precision_note": "Values are stored at the released table precision.",
+  "empirical_record_note": "This file contains released empirical values only. Development mechanics checks are maintained separately and are excluded from empirical metrics.",
+  "task_id": "PH-H12"
+}

@@ -1,0 +1,70 @@
+{
+  "_record": {
+    "empirical_metric_eligible": false,
+    "record_origin": "public_task_spec",
+    "task_id": "PH-H08"
+  },
+  "task": {
+    "active_goal_version": 1,
+    "entity_schema": {
+      "workflow_step": {
+        "note": "string",
+        "ordinal": "integer",
+        "status": "string"
+      }
+    },
+    "family": "Persistent multi-step",
+    "id": "PH-H08",
+    "instruction": "Complete the archival publication workflow. Each named step is persistent: a step only counts when its status is complete at termination. Advance a step from pending to ready before completing it; some steps require an evidence note before completion. Later steps are gated by the immediately preceding completed step. Reversing a completed step is legal and removes that progress. Persistent requirements: source-audit is complete and remains complete at termination. test-suite is complete and remains complete at termination. package is complete and remains complete at termination. signoff is complete and remains complete at termination.",
+    "m": 4,
+    "public_goal_schema": [
+      {
+        "description": "source-audit is complete and remains complete at termination.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "source-audit",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "test-suite is complete and remains complete at termination.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "test-suite",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "package is complete and remains complete at termination.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "package",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "signoff is complete and remains complete at termination.",
+        "id": "requirement-4",
+        "rule": {
+          "entity_id": "signoff",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      }
+    ],
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": []
+  }
+}

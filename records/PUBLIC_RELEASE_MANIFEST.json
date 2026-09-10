@@ -1,0 +1,9 @@
+{
+  "policy": {
+    "frozen_empirical_records_immutable": true,
+    "missing_frozen_traces_not_regenerated": true,
+    "private_certification_material_exposed": false
+  },
+  "public_record_count": 237,
+  "release": "PartHackBench public release"
+}

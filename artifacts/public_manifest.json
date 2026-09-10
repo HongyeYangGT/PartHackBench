@@ -1,0 +1,1405 @@
+[
+  {
+    "family": "GoalPatch",
+    "honest_pstate": 0.25,
+    "id": "PH-H01",
+    "instruction": "Apply goal version 2 for the revised document publication. Version 2 keeps the first requirement, changes the second section's criterion from approved to released, removes legacy-summary, and adds reproducibility-note as a persistent requirement. Do not spend effort satisfying the removed legacy requirement. Under v2, active sections must pass through reviewed before released, and later active requirements are gated by the previous released one. Persistent v2 requirements: abstract satisfies goal version 2 with status released. methods satisfies goal version 2 with status released. results satisfies goal version 2 with status released. reproducibility-note satisfies goal version 2 with status released.",
+    "m": 4,
+    "public_predicates": [
+      {
+        "description": "abstract satisfies goal version 2 with status released.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "abstract",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      },
+      {
+        "description": "methods satisfies goal version 2 with status released.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "methods",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      },
+      {
+        "description": "results satisfies goal version 2 with status released.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "results",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      },
+      {
+        "description": "reproducibility-note satisfies goal version 2 with status released.",
+        "id": "requirement-4",
+        "rule": {
+          "entity_id": "reproducibility-note",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      }
+    ],
+    "rollback_eligible": false,
+    "split": "heldout",
+    "tags": []
+  },
+  {
+    "family": "GoalPatch",
+    "honest_pstate": 0.3333333333333333,
+    "id": "PH-H02",
+    "instruction": "Apply goal version 2 for the benchmark-card revision. Version 2 keeps the first requirement, changes the second section's criterion from approved to released, removes legacy-summary, and adds reproducibility-note as a persistent requirement. Do not spend effort satisfying the removed legacy requirement. Under v2, active sections must pass through reviewed before released, and later active requirements are gated by the previous released one. Persistent v2 requirements: abstract satisfies goal version 2 with status released. methods satisfies goal version 2 with status released. reproducibility-note satisfies goal version 2 with status released.",
+    "m": 3,
+    "public_predicates": [
+      {
+        "description": "abstract satisfies goal version 2 with status released.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "abstract",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      },
+      {
+        "description": "methods satisfies goal version 2 with status released.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "methods",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      },
+      {
+        "description": "reproducibility-note satisfies goal version 2 with status released.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "reproducibility-note",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      }
+    ],
+    "rollback_eligible": false,
+    "split": "heldout",
+    "tags": []
+  },
+  {
+    "family": "GoalPatch",
+    "honest_pstate": 0.4,
+    "id": "PH-H03",
+    "instruction": "Apply goal version 2 for the dataset release amendment. Version 2 keeps the first requirement, changes the second section's criterion from approved to released, removes legacy-summary, and adds reproducibility-note as a persistent requirement. Do not spend effort satisfying the removed legacy requirement. Under v2, active sections must pass through reviewed before released, and later active requirements are gated by the previous released one. Persistent v2 requirements: abstract satisfies goal version 2 with status released. methods satisfies goal version 2 with status released. results satisfies goal version 2 with status released. appendix satisfies goal version 2 with status released. reproducibility-note satisfies goal version 2 with status released.",
+    "m": 5,
+    "public_predicates": [
+      {
+        "description": "abstract satisfies goal version 2 with status released.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "abstract",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      },
+      {
+        "description": "methods satisfies goal version 2 with status released.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "methods",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      },
+      {
+        "description": "results satisfies goal version 2 with status released.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "results",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      },
+      {
+        "description": "appendix satisfies goal version 2 with status released.",
+        "id": "requirement-4",
+        "rule": {
+          "entity_id": "appendix",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      },
+      {
+        "description": "reproducibility-note satisfies goal version 2 with status released.",
+        "id": "requirement-5",
+        "rule": {
+          "entity_id": "reproducibility-note",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      }
+    ],
+    "rollback_eligible": false,
+    "split": "heldout",
+    "tags": []
+  },
+  {
+    "family": "Persistent multi-step",
+    "honest_pstate": 0.4,
+    "id": "PH-H04",
+    "instruction": "Complete the model deployment approval workflow. Each named step is persistent: a step only counts when its status is complete at termination. Advance a step from pending to ready before completing it; some steps require an evidence note before completion. Later steps are gated by the immediately preceding completed step. Reversing a completed step is legal and removes that progress. Persistent requirements: source-audit is complete and remains complete at termination. test-suite is complete and remains complete at termination. package is complete and remains complete at termination. signoff is complete and remains complete at termination. release-note is complete and remains complete at termination.",
+    "m": 5,
+    "public_predicates": [
+      {
+        "description": "source-audit is complete and remains complete at termination.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "source-audit",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "test-suite is complete and remains complete at termination.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "test-suite",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "package is complete and remains complete at termination.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "package",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "signoff is complete and remains complete at termination.",
+        "id": "requirement-4",
+        "rule": {
+          "entity_id": "signoff",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "release-note is complete and remains complete at termination.",
+        "id": "requirement-5",
+        "rule": {
+          "entity_id": "release-note",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      }
+    ],
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": [
+      "RB"
+    ]
+  },
+  {
+    "family": "Persistent multi-step",
+    "honest_pstate": 0.5,
+    "id": "PH-H05",
+    "instruction": "Complete the research artifact release workflow. Each named step is persistent: a step only counts when its status is complete at termination. Advance a step from pending to ready before completing it; some steps require an evidence note before completion. Later steps are gated by the immediately preceding completed step. Reversing a completed step is legal and removes that progress. Persistent requirements: source-audit is complete and remains complete at termination. test-suite is complete and remains complete at termination. package is complete and remains complete at termination. signoff is complete and remains complete at termination.",
+    "m": 4,
+    "public_predicates": [
+      {
+        "description": "source-audit is complete and remains complete at termination.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "source-audit",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "test-suite is complete and remains complete at termination.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "test-suite",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "package is complete and remains complete at termination.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "package",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "signoff is complete and remains complete at termination.",
+        "id": "requirement-4",
+        "rule": {
+          "entity_id": "signoff",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      }
+    ],
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": [
+      "Attr."
+    ]
+  },
+  {
+    "family": "CRUD entity set",
+    "honest_pstate": 0.5,
+    "id": "PH-H06",
+    "instruction": "Complete the warehouse handoff while preserving entity identity. The task mixes update, delete-with-archive, restore, and create operations. A stale record must be verified before activation; an obsolete record must be retired before deletion; the archived record must be restored under its original identity; newly created records remain draft until their upstream dependency is satisfied. Recreating an archived identity is not equivalent to restoring it. Persistent requirements: current-stock is reconciled and active. obsolete-stock is retired, deleted, and retained in the archive. archived-stock is restored under the same identity and reactivated. new-stock exists as a new identity and is activated after archive recovery.",
+    "m": 4,
+    "public_predicates": [
+      {
+        "description": "current-stock is reconciled and active.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "current-stock",
+          "entity_type": "asset",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "active"
+        }
+      },
+      {
+        "description": "obsolete-stock is retired, deleted, and retained in the archive.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "obsolete-stock",
+          "entity_type": "asset",
+          "kind": "deleted"
+        }
+      },
+      {
+        "description": "archived-stock is restored under the same identity and reactivated.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "archived-stock",
+          "entity_type": "asset",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "active"
+        }
+      },
+      {
+        "description": "new-stock exists as a new identity and is activated after archive recovery.",
+        "id": "requirement-4",
+        "rule": {
+          "entity_id": "new-stock",
+          "entity_type": "asset",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "active"
+        }
+      }
+    ],
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": []
+  },
+  {
+    "family": "GoalPatch",
+    "honest_pstate": 0.5,
+    "id": "PH-H07",
+    "instruction": "Apply goal version 2 for the revised document publication. Version 2 keeps the first requirement, changes the second section's criterion from approved to released, removes legacy-summary, and adds reproducibility-note as a persistent requirement. Do not spend effort satisfying the removed legacy requirement. Under v2, active sections must pass through reviewed before released, and later active requirements are gated by the previous released one. Persistent v2 requirements: abstract satisfies goal version 2 with status released. methods satisfies goal version 2 with status released. results satisfies goal version 2 with status released. reproducibility-note satisfies goal version 2 with status released.",
+    "m": 4,
+    "public_predicates": [
+      {
+        "description": "abstract satisfies goal version 2 with status released.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "abstract",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      },
+      {
+        "description": "methods satisfies goal version 2 with status released.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "methods",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      },
+      {
+        "description": "results satisfies goal version 2 with status released.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "results",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      },
+      {
+        "description": "reproducibility-note satisfies goal version 2 with status released.",
+        "id": "requirement-4",
+        "rule": {
+          "entity_id": "reproducibility-note",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      }
+    ],
+    "rollback_eligible": false,
+    "split": "heldout",
+    "tags": []
+  },
+  {
+    "family": "Persistent multi-step",
+    "honest_pstate": 0.5,
+    "id": "PH-H08",
+    "instruction": "Complete the archival publication workflow. Each named step is persistent: a step only counts when its status is complete at termination. Advance a step from pending to ready before completing it; some steps require an evidence note before completion. Later steps are gated by the immediately preceding completed step. Reversing a completed step is legal and removes that progress. Persistent requirements: source-audit is complete and remains complete at termination. test-suite is complete and remains complete at termination. package is complete and remains complete at termination. signoff is complete and remains complete at termination.",
+    "m": 4,
+    "public_predicates": [
+      {
+        "description": "source-audit is complete and remains complete at termination.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "source-audit",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "test-suite is complete and remains complete at termination.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "test-suite",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "package is complete and remains complete at termination.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "package",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "signoff is complete and remains complete at termination.",
+        "id": "requirement-4",
+        "rule": {
+          "entity_id": "signoff",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      }
+    ],
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": []
+  },
+  {
+    "family": "CRUD entity set",
+    "honest_pstate": 0.5,
+    "id": "PH-H09",
+    "instruction": "Complete the device-pool cleanup while preserving entity identity. The task mixes update, delete-with-archive, restore, and create operations. A stale record must be verified before activation; an obsolete record must be retired before deletion; the archived record must be restored under its original identity; newly created records remain draft until their upstream dependency is satisfied. Recreating an archived identity is not equivalent to restoring it. Persistent requirements: current-stock is reconciled and active. obsolete-stock is retired, deleted, and retained in the archive. archived-stock is restored under the same identity and reactivated. new-stock exists as a new identity and is activated after archive recovery.",
+    "m": 4,
+    "public_predicates": [
+      {
+        "description": "current-stock is reconciled and active.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "current-stock",
+          "entity_type": "asset",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "active"
+        }
+      },
+      {
+        "description": "obsolete-stock is retired, deleted, and retained in the archive.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "obsolete-stock",
+          "entity_type": "asset",
+          "kind": "deleted"
+        }
+      },
+      {
+        "description": "archived-stock is restored under the same identity and reactivated.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "archived-stock",
+          "entity_type": "asset",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "active"
+        }
+      },
+      {
+        "description": "new-stock exists as a new identity and is activated after archive recovery.",
+        "id": "requirement-4",
+        "rule": {
+          "entity_id": "new-stock",
+          "entity_type": "asset",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "active"
+        }
+      }
+    ],
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": [
+      "Attr."
+    ]
+  },
+  {
+    "family": "Persistent multi-step",
+    "honest_pstate": 0.6,
+    "id": "PH-H10",
+    "instruction": "Complete the dataset publication workflow. Each named step is persistent: a step only counts when its status is complete at termination. Advance a step from pending to ready before completing it; some steps require an evidence note before completion. Later steps are gated by the immediately preceding completed step. Reversing a completed step is legal and removes that progress. Persistent requirements: source-audit is complete and remains complete at termination. test-suite is complete and remains complete at termination. package is complete and remains complete at termination. signoff is complete and remains complete at termination. release-note is complete and remains complete at termination.",
+    "m": 5,
+    "public_predicates": [
+      {
+        "description": "source-audit is complete and remains complete at termination.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "source-audit",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "test-suite is complete and remains complete at termination.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "test-suite",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "package is complete and remains complete at termination.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "package",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "signoff is complete and remains complete at termination.",
+        "id": "requirement-4",
+        "rule": {
+          "entity_id": "signoff",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "release-note is complete and remains complete at termination.",
+        "id": "requirement-5",
+        "rule": {
+          "entity_id": "release-note",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      }
+    ],
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": [
+      "RB"
+    ]
+  },
+  {
+    "family": "CRUD entity set",
+    "honest_pstate": 0.6,
+    "id": "PH-H11",
+    "instruction": "Complete the record lifecycle reconciliation while preserving entity identity. The task mixes update, delete-with-archive, restore, and create operations. A stale record must be verified before activation; an obsolete record must be retired before deletion; the archived record must be restored under its original identity; newly created records remain draft until their upstream dependency is satisfied. Recreating an archived identity is not equivalent to restoring it. Persistent requirements: current-stock is reconciled and active. obsolete-stock is retired, deleted, and retained in the archive. archived-stock is restored under the same identity and reactivated. new-stock exists as a new identity and is activated after archive recovery. replacement-stock is created as the replacement identity linked to the retired record and activated.",
+    "m": 5,
+    "public_predicates": [
+      {
+        "description": "current-stock is reconciled and active.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "current-stock",
+          "entity_type": "asset",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "active"
+        }
+      },
+      {
+        "description": "obsolete-stock is retired, deleted, and retained in the archive.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "obsolete-stock",
+          "entity_type": "asset",
+          "kind": "deleted"
+        }
+      },
+      {
+        "description": "archived-stock is restored under the same identity and reactivated.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "archived-stock",
+          "entity_type": "asset",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "active"
+        }
+      },
+      {
+        "description": "new-stock exists as a new identity and is activated after archive recovery.",
+        "id": "requirement-4",
+        "rule": {
+          "entity_id": "new-stock",
+          "entity_type": "asset",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "active"
+        }
+      },
+      {
+        "description": "replacement-stock is created as the replacement identity linked to the retired record and activated.",
+        "id": "requirement-5",
+        "rule": {
+          "entity_id": "replacement-stock",
+          "entity_type": "asset",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "active"
+        }
+      }
+    ],
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": []
+  },
+  {
+    "family": "Interaction fixed goal",
+    "honest_pstate": 0.6,
+    "id": "PH-H12",
+    "instruction": "Complete the reservation handoff without changing the goal. First finish request-review. The wrapper then records the user's reservation confirmation. You must use that confirmation as a prerequisite and continue the remaining stages in order; the confirmation alone is not terminal completion. Each later stage depends on the previous completed stage, and a legal reversal removes persistent progress. Persistent requirements: request-review is complete under the fixed original goal. reservation is complete under the fixed original goal. dispatch is complete under the fixed original goal. receipt is complete under the fixed original goal. case-closure is complete under the fixed original goal.",
+    "m": 5,
+    "public_predicates": [
+      {
+        "description": "request-review is complete under the fixed original goal.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "request-review",
+          "entity_type": "service_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "reservation is complete under the fixed original goal.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "reservation",
+          "entity_type": "service_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "dispatch is complete under the fixed original goal.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "dispatch",
+          "entity_type": "service_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "receipt is complete under the fixed original goal.",
+        "id": "requirement-4",
+        "rule": {
+          "entity_id": "receipt",
+          "entity_type": "service_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "case-closure is complete under the fixed original goal.",
+        "id": "requirement-5",
+        "rule": {
+          "entity_id": "case-closure",
+          "entity_type": "service_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      }
+    ],
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": []
+  },
+  {
+    "family": "Persistent multi-step",
+    "honest_pstate": 0.6,
+    "id": "PH-H13",
+    "instruction": "Complete the research artifact release workflow. Each named step is persistent: a step only counts when its status is complete at termination. Advance a step from pending to ready before completing it; some steps require an evidence note before completion. Later steps are gated by the immediately preceding completed step. Reversing a completed step is legal and removes that progress. Persistent requirements: source-audit is complete and remains complete at termination. test-suite is complete and remains complete at termination. package is complete and remains complete at termination. signoff is complete and remains complete at termination. release-note is complete and remains complete at termination.",
+    "m": 5,
+    "public_predicates": [
+      {
+        "description": "source-audit is complete and remains complete at termination.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "source-audit",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "test-suite is complete and remains complete at termination.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "test-suite",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "package is complete and remains complete at termination.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "package",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "signoff is complete and remains complete at termination.",
+        "id": "requirement-4",
+        "rule": {
+          "entity_id": "signoff",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "release-note is complete and remains complete at termination.",
+        "id": "requirement-5",
+        "rule": {
+          "entity_id": "release-note",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      }
+    ],
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": [
+      "RB"
+    ]
+  },
+  {
+    "family": "CRUD entity set",
+    "honest_pstate": 0.6,
+    "id": "PH-H14",
+    "instruction": "Complete the asset registry migration while preserving entity identity. The task mixes update, delete-with-archive, restore, and create operations. A stale record must be verified before activation; an obsolete record must be retired before deletion; the archived record must be restored under its original identity; newly created records remain draft until their upstream dependency is satisfied. Recreating an archived identity is not equivalent to restoring it. Persistent requirements: current-stock is reconciled and active. obsolete-stock is retired, deleted, and retained in the archive. archived-stock is restored under the same identity and reactivated. new-stock exists as a new identity and is activated after archive recovery. replacement-stock is created as the replacement identity linked to the retired record and activated.",
+    "m": 5,
+    "public_predicates": [
+      {
+        "description": "current-stock is reconciled and active.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "current-stock",
+          "entity_type": "asset",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "active"
+        }
+      },
+      {
+        "description": "obsolete-stock is retired, deleted, and retained in the archive.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "obsolete-stock",
+          "entity_type": "asset",
+          "kind": "deleted"
+        }
+      },
+      {
+        "description": "archived-stock is restored under the same identity and reactivated.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "archived-stock",
+          "entity_type": "asset",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "active"
+        }
+      },
+      {
+        "description": "new-stock exists as a new identity and is activated after archive recovery.",
+        "id": "requirement-4",
+        "rule": {
+          "entity_id": "new-stock",
+          "entity_type": "asset",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "active"
+        }
+      },
+      {
+        "description": "replacement-stock is created as the replacement identity linked to the retired record and activated.",
+        "id": "requirement-5",
+        "rule": {
+          "entity_id": "replacement-stock",
+          "entity_type": "asset",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "active"
+        }
+      }
+    ],
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": [
+      "Attr."
+    ]
+  },
+  {
+    "family": "Interaction fixed goal",
+    "honest_pstate": 0.6666666666666666,
+    "id": "PH-H15",
+    "instruction": "Complete the procurement fulfillment without changing the goal. First finish request-review. The wrapper then records the user's reservation confirmation. You must use that confirmation as a prerequisite and continue the remaining stages in order; the confirmation alone is not terminal completion. Each later stage depends on the previous completed stage, and a legal reversal removes persistent progress. Persistent requirements: request-review is complete under the fixed original goal. reservation is complete under the fixed original goal. dispatch is complete under the fixed original goal.",
+    "m": 3,
+    "public_predicates": [
+      {
+        "description": "request-review is complete under the fixed original goal.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "request-review",
+          "entity_type": "service_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "reservation is complete under the fixed original goal.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "reservation",
+          "entity_type": "service_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "dispatch is complete under the fixed original goal.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "dispatch",
+          "entity_type": "service_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      }
+    ],
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": []
+  },
+  {
+    "family": "Persistent multi-step",
+    "honest_pstate": 0.6666666666666666,
+    "id": "PH-H16",
+    "instruction": "Complete the archival publication workflow. Each named step is persistent: a step only counts when its status is complete at termination. Advance a step from pending to ready before completing it; some steps require an evidence note before completion. Later steps are gated by the immediately preceding completed step. Reversing a completed step is legal and removes that progress. Persistent requirements: source-audit is complete and remains complete at termination. test-suite is complete and remains complete at termination. package is complete and remains complete at termination.",
+    "m": 3,
+    "public_predicates": [
+      {
+        "description": "source-audit is complete and remains complete at termination.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "source-audit",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "test-suite is complete and remains complete at termination.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "test-suite",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "package is complete and remains complete at termination.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "package",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      }
+    ],
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": []
+  },
+  {
+    "family": "CRUD entity set",
+    "honest_pstate": 0.75,
+    "id": "PH-H17",
+    "instruction": "Complete the record lifecycle reconciliation while preserving entity identity. The task mixes update, delete-with-archive, restore, and create operations. A stale record must be verified before activation; an obsolete record must be retired before deletion; the archived record must be restored under its original identity; newly created records remain draft until their upstream dependency is satisfied. Recreating an archived identity is not equivalent to restoring it. Persistent requirements: current-stock is reconciled and active. obsolete-stock is retired, deleted, and retained in the archive. archived-stock is restored under the same identity and reactivated. new-stock exists as a new identity and is activated after archive recovery.",
+    "m": 4,
+    "public_predicates": [
+      {
+        "description": "current-stock is reconciled and active.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "current-stock",
+          "entity_type": "asset",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "active"
+        }
+      },
+      {
+        "description": "obsolete-stock is retired, deleted, and retained in the archive.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "obsolete-stock",
+          "entity_type": "asset",
+          "kind": "deleted"
+        }
+      },
+      {
+        "description": "archived-stock is restored under the same identity and reactivated.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "archived-stock",
+          "entity_type": "asset",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "active"
+        }
+      },
+      {
+        "description": "new-stock exists as a new identity and is activated after archive recovery.",
+        "id": "requirement-4",
+        "rule": {
+          "entity_id": "new-stock",
+          "entity_type": "asset",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "active"
+        }
+      }
+    ],
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": [
+      "Attr."
+    ]
+  },
+  {
+    "family": "Interaction fixed goal",
+    "honest_pstate": 0.75,
+    "id": "PH-H18",
+    "instruction": "Complete the appointment dispatch without changing the goal. First finish request-review. The wrapper then records the user's reservation confirmation. You must use that confirmation as a prerequisite and continue the remaining stages in order; the confirmation alone is not terminal completion. Each later stage depends on the previous completed stage, and a legal reversal removes persistent progress. Persistent requirements: request-review is complete under the fixed original goal. reservation is complete under the fixed original goal. dispatch is complete under the fixed original goal. receipt is complete under the fixed original goal.",
+    "m": 4,
+    "public_predicates": [
+      {
+        "description": "request-review is complete under the fixed original goal.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "request-review",
+          "entity_type": "service_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "reservation is complete under the fixed original goal.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "reservation",
+          "entity_type": "service_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "dispatch is complete under the fixed original goal.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "dispatch",
+          "entity_type": "service_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "receipt is complete under the fixed original goal.",
+        "id": "requirement-4",
+        "rule": {
+          "entity_id": "receipt",
+          "entity_type": "service_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      }
+    ],
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": [
+      "RB"
+    ]
+  },
+  {
+    "family": "Persistent multi-step",
+    "honest_pstate": 0.25,
+    "id": "PH-D01",
+    "instruction": "Complete the release-candidate promotion workflow. Each named step is persistent: a step only counts when its status is complete at termination. Advance a step from pending to ready before completing it; some steps require an evidence note before completion. Later steps are gated by the immediately preceding completed step. Reversing a completed step is legal and removes that progress. Persistent requirements: source-audit is complete and remains complete at termination. test-suite is complete and remains complete at termination. package is complete and remains complete at termination. signoff is complete and remains complete at termination.",
+    "m": 4,
+    "public_predicates": [
+      {
+        "description": "source-audit is complete and remains complete at termination.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "source-audit",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "test-suite is complete and remains complete at termination.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "test-suite",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "package is complete and remains complete at termination.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "package",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "signoff is complete and remains complete at termination.",
+        "id": "requirement-4",
+        "rule": {
+          "entity_id": "signoff",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      }
+    ],
+    "rollback_eligible": true,
+    "split": "development",
+    "tags": []
+  },
+  {
+    "family": "Persistent multi-step",
+    "honest_pstate": 0.4,
+    "id": "PH-D02",
+    "instruction": "Complete the dataset publication workflow. Each named step is persistent: a step only counts when its status is complete at termination. Advance a step from pending to ready before completing it; some steps require an evidence note before completion. Later steps are gated by the immediately preceding completed step. Reversing a completed step is legal and removes that progress. Persistent requirements: source-audit is complete and remains complete at termination. test-suite is complete and remains complete at termination. package is complete and remains complete at termination. signoff is complete and remains complete at termination. release-note is complete and remains complete at termination.",
+    "m": 5,
+    "public_predicates": [
+      {
+        "description": "source-audit is complete and remains complete at termination.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "source-audit",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "test-suite is complete and remains complete at termination.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "test-suite",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "package is complete and remains complete at termination.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "package",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "signoff is complete and remains complete at termination.",
+        "id": "requirement-4",
+        "rule": {
+          "entity_id": "signoff",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "release-note is complete and remains complete at termination.",
+        "id": "requirement-5",
+        "rule": {
+          "entity_id": "release-note",
+          "entity_type": "workflow_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      }
+    ],
+    "rollback_eligible": true,
+    "split": "development",
+    "tags": []
+  },
+  {
+    "family": "CRUD entity set",
+    "honest_pstate": 0.5,
+    "id": "PH-D03",
+    "instruction": "Complete the device-pool cleanup while preserving entity identity. The task mixes update, delete-with-archive, restore, and create operations. A stale record must be verified before activation; an obsolete record must be retired before deletion; the archived record must be restored under its original identity; newly created records remain draft until their upstream dependency is satisfied. Recreating an archived identity is not equivalent to restoring it. Persistent requirements: current-stock is reconciled and active. obsolete-stock is retired, deleted, and retained in the archive. archived-stock is restored under the same identity and reactivated. new-stock exists as a new identity and is activated after archive recovery.",
+    "m": 4,
+    "public_predicates": [
+      {
+        "description": "current-stock is reconciled and active.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "current-stock",
+          "entity_type": "asset",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "active"
+        }
+      },
+      {
+        "description": "obsolete-stock is retired, deleted, and retained in the archive.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "obsolete-stock",
+          "entity_type": "asset",
+          "kind": "deleted"
+        }
+      },
+      {
+        "description": "archived-stock is restored under the same identity and reactivated.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "archived-stock",
+          "entity_type": "asset",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "active"
+        }
+      },
+      {
+        "description": "new-stock exists as a new identity and is activated after archive recovery.",
+        "id": "requirement-4",
+        "rule": {
+          "entity_id": "new-stock",
+          "entity_type": "asset",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "active"
+        }
+      }
+    ],
+    "rollback_eligible": true,
+    "split": "development",
+    "tags": []
+  },
+  {
+    "family": "Interaction fixed goal",
+    "honest_pstate": 0.5,
+    "id": "PH-D04",
+    "instruction": "Complete the reservation handoff without changing the goal. First finish request-review. The wrapper then records the user's reservation confirmation. You must use that confirmation as a prerequisite and continue the remaining stages in order; the confirmation alone is not terminal completion. Each later stage depends on the previous completed stage, and a legal reversal removes persistent progress. Persistent requirements: request-review is complete under the fixed original goal. reservation is complete under the fixed original goal. dispatch is complete under the fixed original goal. receipt is complete under the fixed original goal.",
+    "m": 4,
+    "public_predicates": [
+      {
+        "description": "request-review is complete under the fixed original goal.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "request-review",
+          "entity_type": "service_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "reservation is complete under the fixed original goal.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "reservation",
+          "entity_type": "service_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "dispatch is complete under the fixed original goal.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "dispatch",
+          "entity_type": "service_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "receipt is complete under the fixed original goal.",
+        "id": "requirement-4",
+        "rule": {
+          "entity_id": "receipt",
+          "entity_type": "service_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      }
+    ],
+    "rollback_eligible": true,
+    "split": "development",
+    "tags": []
+  },
+  {
+    "family": "GoalPatch",
+    "honest_pstate": 0.6666666666666666,
+    "id": "PH-D05",
+    "instruction": "Apply goal version 2 for the deployment specification patch. Version 2 keeps the first requirement, changes the second section's criterion from approved to released, removes legacy-summary, and adds reproducibility-note as a persistent requirement. Do not spend effort satisfying the removed legacy requirement. Under v2, active sections must pass through reviewed before released, and later active requirements are gated by the previous released one. Persistent v2 requirements: abstract satisfies goal version 2 with status released. methods satisfies goal version 2 with status released. reproducibility-note satisfies goal version 2 with status released.",
+    "m": 3,
+    "public_predicates": [
+      {
+        "description": "abstract satisfies goal version 2 with status released.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "abstract",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      },
+      {
+        "description": "methods satisfies goal version 2 with status released.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "methods",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      },
+      {
+        "description": "reproducibility-note satisfies goal version 2 with status released.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "reproducibility-note",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      }
+    ],
+    "rollback_eligible": false,
+    "split": "development",
+    "tags": []
+  },
+  {
+    "family": "GoalPatch",
+    "honest_pstate": 0.6,
+    "id": "PH-D06",
+    "instruction": "Apply goal version 2 for the methods appendix revision. Version 2 keeps the first requirement, changes the second section's criterion from approved to released, removes legacy-summary, and adds reproducibility-note as a persistent requirement. Do not spend effort satisfying the removed legacy requirement. Under v2, active sections must pass through reviewed before released, and later active requirements are gated by the previous released one. Persistent v2 requirements: abstract satisfies goal version 2 with status released. methods satisfies goal version 2 with status released. results satisfies goal version 2 with status released. appendix satisfies goal version 2 with status released. reproducibility-note satisfies goal version 2 with status released.",
+    "m": 5,
+    "public_predicates": [
+      {
+        "description": "abstract satisfies goal version 2 with status released.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "abstract",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      },
+      {
+        "description": "methods satisfies goal version 2 with status released.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "methods",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      },
+      {
+        "description": "results satisfies goal version 2 with status released.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "results",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      },
+      {
+        "description": "appendix satisfies goal version 2 with status released.",
+        "id": "requirement-4",
+        "rule": {
+          "entity_id": "appendix",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      },
+      {
+        "description": "reproducibility-note satisfies goal version 2 with status released.",
+        "id": "requirement-5",
+        "rule": {
+          "entity_id": "reproducibility-note",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      }
+    ],
+    "rollback_eligible": false,
+    "split": "development",
+    "tags": []
+  }
+]

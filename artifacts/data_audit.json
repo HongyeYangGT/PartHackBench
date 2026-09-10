@@ -1,0 +1,48 @@
+{
+  "family_counts_total": {
+    "CRUD entity set": 6,
+    "GoalPatch": 6,
+    "Interaction fixed goal": 4,
+    "Persistent multi-step": 8
+  },
+  "heldout_progress_counts": {
+    "1/2": 5,
+    "1/3": 1,
+    "1/4": 1,
+    "2/3": 2,
+    "2/5": 2,
+    "3/4": 2,
+    "3/5": 5
+  },
+  "historical_k3": {
+    "attempts": 54,
+    "matched": 15,
+    "protocol_valid": 37
+  },
+  "historical_matched_tasks": 15,
+  "note": "Means are recomputed from released task-level measurements; matched-task counts are empirical outcomes and are absent from public task specifications. Release-level intervals and target-specific records are stored in empirical_results.json.",
+  "provenance": "frozen-empirical-run",
+  "rollback_tasks": 14,
+  "shared_reference_empirical": {
+    "deepseek": {
+      "denominator": 15,
+      "mean": 0.0222,
+      "successes_delta_gt_0_10": 1
+    },
+    "historical": {
+      "denominator": 15,
+      "mean": 0.2522,
+      "successes_delta_gt_0_10": 10
+    },
+    "idj": {
+      "denominator": 15,
+      "mean": 0.017,
+      "successes_delta_gt_0_10": 1
+    }
+  },
+  "task_counts": {
+    "development": 6,
+    "heldout": 18,
+    "total": 24
+  }
+}

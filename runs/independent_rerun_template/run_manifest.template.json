@@ -1,0 +1,14 @@
+{
+  "attacker_model": "deepseek-v4-pro",
+  "attacker_temperature": 0,
+  "benchmark": "PartHackBench",
+  "candidate_budget_per_task": 3,
+  "deepseek_judge_model": "deepseek-v4-pro",
+  "environment": "PB-CSTE v1.0",
+  "idj_checklist_model": "Gemini 2.5 Pro",
+  "notes": "Store rerun outputs separately. Never overwrite the frozen empirical release artifacts.",
+  "replaces_frozen_run": false,
+  "run_id": "REQUIRED_NEW_RUN_ID",
+  "run_type": "independent_empirical_rerun",
+  "stochastic_variation_allowed": true
+}

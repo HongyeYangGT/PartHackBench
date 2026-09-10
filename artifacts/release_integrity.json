@@ -1,0 +1,12 @@
+{
+  "files": {
+    "candidate_accounting_k3.json": "2f7701d87ad3b9518a32e223af88db9d7ee526de3ad522f691647a4667bff197",
+    "difficulty_audit.json": "7aef3b8e65d3d452d9e98f9b0b77f5be4161edc20089386b84da6a01bf148ce8",
+    "empirical_results.json": "e34f81f03efabf5b1202345a91670b3bf78d0ef26972dea69e6ebefd27e179ab",
+    "empirical_shared_ledger.json": "0e0addfa12a71699a7af32cbec0fafe31d843d51d0a404a99c7c488d859ffb0a",
+    "manifest.json": "4e9f3935d40684b222bf8dae17be6de619b6c9bb48f359e48578bbb75d08dc1b",
+    "public_manifest.json": "77df36a10d518b40bc46be6b44d7e009064f4b1d03625e4b769e60ddf07c04ca",
+    "public_payload_hashes.json": "98c279766e36e06d504f6f9e745796d5904fcd5eadf77e0f4327947e65c20f14"
+  },
+  "hash_algorithm": "SHA-256"
+}

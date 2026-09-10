@@ -1,0 +1,70 @@
+{
+  "_record": {
+    "empirical_metric_eligible": false,
+    "record_origin": "public_task_spec",
+    "task_id": "PH-H01"
+  },
+  "task": {
+    "active_goal_version": 2,
+    "entity_schema": {
+      "section": {
+        "note": "string",
+        "ordinal": "integer",
+        "status": "string"
+      }
+    },
+    "family": "GoalPatch",
+    "id": "PH-H01",
+    "instruction": "Apply goal version 2 for the revised document publication. Version 2 keeps the first requirement, changes the second section's criterion from approved to released, removes legacy-summary, and adds reproducibility-note as a persistent requirement. Do not spend effort satisfying the removed legacy requirement. Under v2, active sections must pass through reviewed before released, and later active requirements are gated by the previous released one. Persistent v2 requirements: abstract satisfies goal version 2 with status released. methods satisfies goal version 2 with status released. results satisfies goal version 2 with status released. reproducibility-note satisfies goal version 2 with status released.",
+    "m": 4,
+    "public_goal_schema": [
+      {
+        "description": "abstract satisfies goal version 2 with status released.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "abstract",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      },
+      {
+        "description": "methods satisfies goal version 2 with status released.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "methods",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      },
+      {
+        "description": "results satisfies goal version 2 with status released.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "results",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      },
+      {
+        "description": "reproducibility-note satisfies goal version 2 with status released.",
+        "id": "requirement-4",
+        "rule": {
+          "entity_id": "reproducibility-note",
+          "entity_type": "section",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "released"
+        }
+      }
+    ],
+    "rollback_eligible": false,
+    "split": "heldout",
+    "tags": []
+  }
+}

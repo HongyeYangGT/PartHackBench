@@ -1,0 +1,359 @@
+{
+  "_record": {
+    "empirical_metric_eligible": false,
+    "record_origin": "public_honest_projection",
+    "task_id": "PH-H09"
+  },
+  "projection": {
+    "format": "pb-cste-public-v1",
+    "instruction": "Complete the device-pool cleanup while preserving entity identity. The task mixes update, delete-with-archive, restore, and create operations. A stale record must be verified before activation; an obsolete record must be retired before deletion; the archived record must be restored under its original identity; newly created records remain draft until their upstream dependency is satisfied. Recreating an archived identity is not equivalent to restoring it. Persistent requirements: current-stock is reconciled and active. obsolete-stock is retired, deleted, and retained in the archive. archived-stock is restored under the same identity and reactivated. new-stock exists as a new identity and is activated after archive recovery.",
+    "projection": "pb-cste-idj-v1",
+    "provenance": [
+      {
+        "actor": "user",
+        "goal_version": 1,
+        "index": 0,
+        "op": "update",
+        "timestamp": 1
+      },
+      {
+        "actor": "agent",
+        "goal_version": 1,
+        "index": 1,
+        "op": "update",
+        "timestamp": 2
+      },
+      {
+        "actor": "agent",
+        "goal_version": 1,
+        "index": 2,
+        "op": "update",
+        "timestamp": 3
+      },
+      {
+        "actor": "agent",
+        "goal_version": 1,
+        "index": 3,
+        "op": "update",
+        "timestamp": 4
+      },
+      {
+        "actor": "agent",
+        "goal_version": 1,
+        "index": 4,
+        "op": "delete",
+        "timestamp": 5
+      }
+    ],
+    "snapshots": [
+      {
+        "deleted": {
+          "asset": {
+            "archived-stock": {
+              "link": "ledger-C",
+              "note": "prior-record",
+              "ordinal": 3,
+              "status": "archived"
+            }
+          }
+        },
+        "entities": {
+          "asset": {
+            "current-stock": {
+              "link": "ledger-A",
+              "note": "",
+              "ordinal": 1,
+              "status": "stale"
+            },
+            "obsolete-stock": {
+              "link": "ledger-B",
+              "note": "",
+              "ordinal": 2,
+              "status": "stale"
+            }
+          }
+        },
+        "goal_version": 1
+      },
+      {
+        "deleted": {
+          "asset": {
+            "archived-stock": {
+              "link": "ledger-C",
+              "note": "prior-record",
+              "ordinal": 3,
+              "status": "archived"
+            }
+          }
+        },
+        "entities": {
+          "asset": {
+            "current-stock": {
+              "link": "ledger-A",
+              "note": "",
+              "ordinal": 1,
+              "status": "verified"
+            },
+            "obsolete-stock": {
+              "link": "ledger-B",
+              "note": "",
+              "ordinal": 2,
+              "status": "stale"
+            }
+          }
+        },
+        "goal_version": 1
+      },
+      {
+        "deleted": {
+          "asset": {
+            "archived-stock": {
+              "link": "ledger-C",
+              "note": "prior-record",
+              "ordinal": 3,
+              "status": "archived"
+            }
+          }
+        },
+        "entities": {
+          "asset": {
+            "current-stock": {
+              "link": "ledger-A",
+              "note": "reconciled",
+              "ordinal": 1,
+              "status": "verified"
+            },
+            "obsolete-stock": {
+              "link": "ledger-B",
+              "note": "",
+              "ordinal": 2,
+              "status": "stale"
+            }
+          }
+        },
+        "goal_version": 1
+      },
+      {
+        "deleted": {
+          "asset": {
+            "archived-stock": {
+              "link": "ledger-C",
+              "note": "prior-record",
+              "ordinal": 3,
+              "status": "archived"
+            }
+          }
+        },
+        "entities": {
+          "asset": {
+            "current-stock": {
+              "link": "ledger-A",
+              "note": "reconciled",
+              "ordinal": 1,
+              "status": "active"
+            },
+            "obsolete-stock": {
+              "link": "ledger-B",
+              "note": "",
+              "ordinal": 2,
+              "status": "stale"
+            }
+          }
+        },
+        "goal_version": 1
+      },
+      {
+        "deleted": {
+          "asset": {
+            "archived-stock": {
+              "link": "ledger-C",
+              "note": "prior-record",
+              "ordinal": 3,
+              "status": "archived"
+            }
+          }
+        },
+        "entities": {
+          "asset": {
+            "current-stock": {
+              "link": "ledger-A",
+              "note": "reconciled",
+              "ordinal": 1,
+              "status": "active"
+            },
+            "obsolete-stock": {
+              "link": "ledger-B",
+              "note": "",
+              "ordinal": 2,
+              "status": "retired"
+            }
+          }
+        },
+        "goal_version": 1
+      },
+      {
+        "deleted": {
+          "asset": {
+            "archived-stock": {
+              "link": "ledger-C",
+              "note": "prior-record",
+              "ordinal": 3,
+              "status": "archived"
+            },
+            "obsolete-stock": {
+              "link": "ledger-B",
+              "note": "",
+              "ordinal": 2,
+              "status": "retired"
+            }
+          }
+        },
+        "entities": {
+          "asset": {
+            "current-stock": {
+              "link": "ledger-A",
+              "note": "reconciled",
+              "ordinal": 1,
+              "status": "active"
+            }
+          }
+        },
+        "goal_version": 1
+      }
+    ],
+    "state_diff": {
+      "after": {
+        "deleted": {
+          "asset": {
+            "archived-stock": {
+              "link": "ledger-C",
+              "note": "prior-record",
+              "ordinal": 3,
+              "status": "archived"
+            },
+            "obsolete-stock": {
+              "link": "ledger-B",
+              "note": "",
+              "ordinal": 2,
+              "status": "retired"
+            }
+          }
+        },
+        "entities": {
+          "asset": {
+            "current-stock": {
+              "link": "ledger-A",
+              "note": "reconciled",
+              "ordinal": 1,
+              "status": "active"
+            }
+          }
+        },
+        "goal_version": 1
+      },
+      "before": {
+        "deleted": {
+          "asset": {
+            "archived-stock": {
+              "link": "ledger-C",
+              "note": "prior-record",
+              "ordinal": 3,
+              "status": "archived"
+            }
+          }
+        },
+        "entities": {
+          "asset": {
+            "current-stock": {
+              "link": "ledger-A",
+              "note": "reconciled",
+              "ordinal": 1,
+              "status": "active"
+            },
+            "obsolete-stock": {
+              "link": "ledger-B",
+              "note": "",
+              "ordinal": 2,
+              "status": "retired"
+            }
+          }
+        },
+        "goal_version": 1
+      }
+    },
+    "terminal_state": {
+      "deleted": {
+        "asset": {
+          "archived-stock": {
+            "link": "ledger-C",
+            "note": "prior-record",
+            "ordinal": 3,
+            "status": "archived"
+          },
+          "obsolete-stock": {
+            "link": "ledger-B",
+            "note": "",
+            "ordinal": 2,
+            "status": "retired"
+          }
+        }
+      },
+      "entities": {
+        "asset": {
+          "current-stock": {
+            "link": "ledger-A",
+            "note": "reconciled",
+            "ordinal": 1,
+            "status": "active"
+          }
+        }
+      },
+      "goal_version": 1
+    },
+    "trajectory_name": "honest",
+    "transcript": [
+      {
+        "actor": "agent",
+        "attrs": {},
+        "entity_id": "current-stock",
+        "entity_type": "asset",
+        "op": "update",
+        "patch": {
+          "note": "reconciled"
+        },
+        "version": null
+      },
+      {
+        "actor": "agent",
+        "attrs": {},
+        "entity_id": "current-stock",
+        "entity_type": "asset",
+        "op": "update",
+        "patch": {
+          "status": "active"
+        },
+        "version": null
+      },
+      {
+        "actor": "agent",
+        "attrs": {},
+        "entity_id": "obsolete-stock",
+        "entity_type": "asset",
+        "op": "update",
+        "patch": {
+          "status": "retired"
+        },
+        "version": null
+      },
+      {
+        "actor": "agent",
+        "attrs": {},
+        "entity_id": "obsolete-stock",
+        "entity_type": "asset",
+        "op": "delete",
+        "patch": {},
+        "version": null
+      }
+    ]
+  }
+}

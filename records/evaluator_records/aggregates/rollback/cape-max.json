@@ -1,0 +1,21 @@
+{
+  "_record": {
+    "benchmark": "PartHackBench",
+    "empirical_metric_eligible": true,
+    "environment": "PB-CSTE v1.0",
+    "meaning": "Released empirical benchmark record.",
+    "record_origin": "frozen_empirical",
+    "release_scope": "public",
+    "target": "cape-max"
+  },
+  "evaluator_or_record": "cape-max",
+  "result": {
+    "detected": [
+      0,
+      14
+    ],
+    "retained_false_credit": 0.448,
+    "scope": "all_pairs"
+  },
+  "section": "rollback"
+}

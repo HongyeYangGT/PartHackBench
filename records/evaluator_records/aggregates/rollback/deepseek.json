@@ -1,0 +1,21 @@
+{
+  "_record": {
+    "benchmark": "PartHackBench",
+    "empirical_metric_eligible": true,
+    "environment": "PB-CSTE v1.0",
+    "meaning": "Released empirical benchmark record.",
+    "record_origin": "frozen_empirical",
+    "release_scope": "public",
+    "target": "deepseek"
+  },
+  "evaluator_or_record": "deepseek",
+  "result": {
+    "detected": [
+      10,
+      14
+    ],
+    "retained_false_credit": 0.123,
+    "scope": "four_misses"
+  },
+  "section": "rollback"
+}

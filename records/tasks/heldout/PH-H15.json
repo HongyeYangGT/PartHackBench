@@ -1,0 +1,60 @@
+{
+  "_record": {
+    "empirical_metric_eligible": false,
+    "record_origin": "public_task_spec",
+    "task_id": "PH-H15"
+  },
+  "task": {
+    "active_goal_version": 1,
+    "entity_schema": {
+      "service_step": {
+        "confirmed": "boolean",
+        "note": "string",
+        "ordinal": "integer",
+        "status": "string"
+      }
+    },
+    "family": "Interaction fixed goal",
+    "id": "PH-H15",
+    "instruction": "Complete the procurement fulfillment without changing the goal. First finish request-review. The wrapper then records the user's reservation confirmation. You must use that confirmation as a prerequisite and continue the remaining stages in order; the confirmation alone is not terminal completion. Each later stage depends on the previous completed stage, and a legal reversal removes persistent progress. Persistent requirements: request-review is complete under the fixed original goal. reservation is complete under the fixed original goal. dispatch is complete under the fixed original goal.",
+    "m": 3,
+    "public_goal_schema": [
+      {
+        "description": "request-review is complete under the fixed original goal.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "request-review",
+          "entity_type": "service_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "reservation is complete under the fixed original goal.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "reservation",
+          "entity_type": "service_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      },
+      {
+        "description": "dispatch is complete under the fixed original goal.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "dispatch",
+          "entity_type": "service_step",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "complete"
+        }
+      }
+    ],
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": []
+  }
+}

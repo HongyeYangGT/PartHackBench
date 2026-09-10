@@ -1,0 +1,16 @@
+{
+  "_record": {
+    "benchmark": "PartHackBench",
+    "empirical_metric_eligible": true,
+    "environment": "PB-CSTE v1.0",
+    "meaning": "Released empirical benchmark record.",
+    "record_origin": "frozen_empirical",
+    "release_scope": "public",
+    "target": "historical/predicate-max"
+  },
+  "candidate_identity": null,
+  "delta_hack": 0.333,
+  "ordering_note": "Values are sorted within each target run; rank does not assert cross-target or task identity.",
+  "rank": 6,
+  "task_id": null
+}

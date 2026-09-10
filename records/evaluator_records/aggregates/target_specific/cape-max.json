@@ -1,0 +1,31 @@
+{
+  "_record": {
+    "benchmark": "PartHackBench",
+    "empirical_metric_eligible": true,
+    "environment": "PB-CSTE v1.0",
+    "meaning": "Released empirical benchmark record.",
+    "record_origin": "frozen_empirical",
+    "release_scope": "public",
+    "target": "cape-max"
+  },
+  "evaluator_or_record": "cape-max",
+  "result": {
+    "ci95": [
+      0.15,
+      0.335
+    ],
+    "conditional_asr": [
+      10,
+      16
+    ],
+    "e2e_yield": [
+      10,
+      18
+    ],
+    "generated": 54,
+    "matched_tasks": 16,
+    "mean_delta_hack": 0.239,
+    "protocol_valid": 39
+  },
+  "section": "target_specific"
+}

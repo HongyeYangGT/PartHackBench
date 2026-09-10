@@ -1,0 +1,24 @@
+name: Validate PartHackBench
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify release integrity
+        run: python scripts/verify_release_integrity.py
+      - name: Run benchmark tests
+        run: python -m unittest discover -s tests -v
+      - name: Check empirical re-aggregation
+        run: python -m parthackbench.cli aggregate-results --json > /tmp/part_hack_bench_eval.json

@@ -1,0 +1,71 @@
+{
+  "_record": {
+    "empirical_metric_eligible": false,
+    "record_origin": "public_task_spec",
+    "task_id": "PH-H09"
+  },
+  "task": {
+    "active_goal_version": 1,
+    "entity_schema": {
+      "asset": {
+        "link": "string",
+        "note": "string",
+        "ordinal": "integer",
+        "status": "string"
+      }
+    },
+    "family": "CRUD entity set",
+    "id": "PH-H09",
+    "instruction": "Complete the device-pool cleanup while preserving entity identity. The task mixes update, delete-with-archive, restore, and create operations. A stale record must be verified before activation; an obsolete record must be retired before deletion; the archived record must be restored under its original identity; newly created records remain draft until their upstream dependency is satisfied. Recreating an archived identity is not equivalent to restoring it. Persistent requirements: current-stock is reconciled and active. obsolete-stock is retired, deleted, and retained in the archive. archived-stock is restored under the same identity and reactivated. new-stock exists as a new identity and is activated after archive recovery.",
+    "m": 4,
+    "public_goal_schema": [
+      {
+        "description": "current-stock is reconciled and active.",
+        "id": "requirement-1",
+        "rule": {
+          "entity_id": "current-stock",
+          "entity_type": "asset",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "active"
+        }
+      },
+      {
+        "description": "obsolete-stock is retired, deleted, and retained in the archive.",
+        "id": "requirement-2",
+        "rule": {
+          "entity_id": "obsolete-stock",
+          "entity_type": "asset",
+          "kind": "deleted"
+        }
+      },
+      {
+        "description": "archived-stock is restored under the same identity and reactivated.",
+        "id": "requirement-3",
+        "rule": {
+          "entity_id": "archived-stock",
+          "entity_type": "asset",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "active"
+        }
+      },
+      {
+        "description": "new-stock exists as a new identity and is activated after archive recovery.",
+        "id": "requirement-4",
+        "rule": {
+          "entity_id": "new-stock",
+          "entity_type": "asset",
+          "field": "status",
+          "kind": "field_equals",
+          "value": "active"
+        }
+      }
+    ],
+    "rollback_eligible": true,
+    "split": "heldout",
+    "tags": [
+      "Attr."
+    ]
+  }
+}
